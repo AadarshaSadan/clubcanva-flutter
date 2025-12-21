@@ -96,21 +96,12 @@ class DashboardScreen extends StatelessWidget {
             ),
 
             //Event Section
-            Column(
-              children: [
-                Row(
-                  children: [
-                    Text_widget(
-                      text: "text",
-                      fontWeight: fontWeight,
-                      fontsize: fontsize,
-                      color: color,
-                      textalign: textalign,
-                    ),
+            Column(children: [Row(children: [
+           
+            
+                    
                   ],
-                ),
-              ],
-            ),
+                )]),
           ],
         ), // entire page column
       ),
